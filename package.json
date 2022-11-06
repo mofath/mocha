@@ -1,0 +1,33 @@
+{
+  "name": "mocha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mofath/mocha.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mofath/mocha/issues"
+  },
+  "homepage": "https://github.com/mofath/mocha#readme",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^10.1.0",
+    "rewire": "^6.0.0",
+    "sinon": "^14.0.1",
+    "sinon-chai": "^3.7.0",
+    "supertest": "^6.3.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.7.1"
+  }
+}
